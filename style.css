@@ -196,6 +196,8 @@ form {
     align-items: center;
     justify-content: center;
     font-size: 0.6rem;
+    word-spacing: 3px;
+    line-height: 7px;
 }
 
 .back p {
@@ -307,6 +309,11 @@ th {
     /* border: 1px solid black; */
     aspect-ratio: 3/1;
     background-color: #d4d1d1;
+    
+}
+
+.bottom_section form{
+    font-size: 1rem;
 }
 
 
@@ -319,8 +326,12 @@ footer {
     /* border: 1px solid black;     */
     align-items: center;
     flex-direction: column;
-    background-color: #e9e5e5;
+    background-color: green;
 
+}
+
+footer ul li{
+    color: rgb(7, 0, 48);
 }
 
 .upper_footer {
@@ -494,8 +505,94 @@ footer p {
     text-align: center;
     /* position: absolute;
     bottom: 10px; */
-    color: #1A1A1A;
+    color: #fffafa;
     font-family: "Rubik", sans-serif;
+}
+
+.contex{
+    background-color: rgb(213, 135, 233);
+}
+.contex p{
+    color: rgb(255, 17, 0);
+}
+
+.contex h2{
+    color: green;
+    font-size: 3rem;
+}
+
+@media(width>760px){
+
+    .contex {
+        height: 800px;
+    }
+
+    form{
+        font-size: 1rem;
+    }
+
+    .carousel{
+        height: 900px;
+    }
+    .carousel-item{
+        height: 600px;
+    }
+
+    .back p {
+        font-size: 1rem;
+        line-height: 24px;
+        word-spacing: 3px;
+        letter-spacing: 1px;
+    }
+    
+    .card h1 {
+        font-size: 1.5rem;
+    }
+
+    table{
+        font-size: 1rem;
+        color: yellow;
+    }
+
+    
+
+    .first ul li{
+        font-size: 1rem;
+    }
+
+    .second ul li{
+        font-size: 1rem;
+    }
+
+    .fourth ul li{
+        font-size: 1rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+
+    #app{
+        height: 60vh;
+        background-color: orange;
+    }
+
+    .bottom_section {
+        width: 100%;
+        height: auto;
+        /* border: 1px solid black; */
+        aspect-ratio: 4/1;
+        background-color: #d4d1d1;
+        
+    }
+    
+    .bottom_section form{
+        font-size: 2rem;
+    }
+    
+
+    
+    
 }
 
 
